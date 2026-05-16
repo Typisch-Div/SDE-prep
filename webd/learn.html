@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body{
+                scroll-behavior:smooth;
+            }
+
+    </style>
+</head>
+    <body>
+
+        <a href="#List">Go to List</a>
+        <br/>
+        <a href="#FontStyling">Go to FontStyling</a>
+        <br/>
+        <a href="#InlineCSS">Go to InlineCSS</a>
+        <br/>
+        <a href="#LinkGeneration">Go to LinkGeneration</a>
+        <br/>
+        <a href="#ImageGeneration">Go to ImageGeneration</a>
+        <br/>
+        <a href="#Table">Go Table</a>
+        <br/>
+        <a href="#Forms">Go to Forms</a>
+        <br/>
+        <a href="#DivContainer">Go to DivContainer</a>
+        <br/>
+        <a href="#SpanTag">Go to SpanTag</a>
+        <br/>
+        <a href="#Iframe">Go to Iframe</a>
+        <br/>
+        <!-- Paragraph-->
+        <p>This is a Paragraph</p>
+        <!-- h1 to h6 -->
+        <h1> Heading </h1>
+        <h2> Heading </h2>
+        <h3> Heading </h3>
+        <h4> Heading </h4>
+        <h5> Heading </h5>
+        <h6> Heading </h6>
+        <!-- typing -->
+        <p>Hi i am divanshu</p>
+        <br/>
+        <p>Divanshu is me</p>
+        <!-- nested break -->
+        <p>Hi i am divanshu</p>
+        <p>Divanshu is <br/> me</p>
+
+        <h2 id="LinkGeneration">LinkGeneration</h2>
+        <!-- link generation -->
+        <!-- samepage -->
+        <a href="https://www.codehelp.in" target="_blank">Code HELP</a>
+        <br/>
+        <!-- differentpage -->
+        <a href="https://www.codehelp.in">Code HELP</a>
+        <br/>
+        <!-- phone number -->
+        <a href="tel: 88407784611">Call me</a>
+        <br/>
+        <!-- mailing -->
+        <a href="mailto:trashmail578@gmail.com"> Mail me </a>
+
+        <h2 id="ImageGeneration">ImageGeneration</h2>
+        <!-- image generation -->
+        <p>Image by link </p>
+        <img src="https://www.yummytummyaarthi.com/wp-content/uploads/2021/11/how-to-make-paneer-1-500x500.jpg"
+        width="50"
+        height="50"
+        />
+        <br/>
+        <!-- horizontal rule -->
+        <hr/>
+        <p>Image by saving</p>
+        <img src="paneer.jpg"
+        width="50"
+        height="50"
+        />
+        <hr/>
+
+        <p>
+            yaar
+            tera 
+            superstar 
+            desi 
+            kalakaar
+        </p>
+        <!-- breaking -->
+        <!-- poet problem -->
+        <pre>
+            yaar
+            tera 
+            superstar 
+            desi 
+            kalakaar
+        </pre>
+
+        <h2 id="InlineCSS">InlineCSS</h2>
+        <!-- inline css -->
+        <p style="color: blue;">Yaar tera superstar desi kalakaar</p>
+        <p style="background-color: brown;">Yaar tera superstar desi kalakaar</p>
+        <p style="font-size:35px;">Yaar tera superstar desi kalakaar</p>
+        <p style="font-family:fantasy;">Yaar tera superstar desi kalakaar</p>
+        <p style="text-align: center;">Yaar tera superstar desi kalakaar</p>
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            #FirstDivContainer{
+                background-color: bisque;
+            }
+            .SecondDivContainer{
+                background-color:blueviolet;
+            }
+            span{
+                background-color: blue;
+            }
+
+        </style>
+
+        <h2 id="FontStyling">FontStyling</h2>
+        <!-- formatting -->
+        <!-- bold -->
+        <b>Yaar tera superstar desi kalakaar</b><br/>
+        <!-- italic -->
+        <i>Yaar tera superstar desi kalakaar</i><br/>
+        <!-- small -->
+        <small>Yaar tera superstar desi kalakaar</small><br/>
+        <!-- strikethrough -->
+        <del>Yaar tera superstar desi kalakaar</del><br/>
+        <!-- mark -->
+        <i>Yaar tera <mark>superstar</mark> desi kalakaar</i><br/>
+        <!-- superscript -->
+        <p>x <sup>2</sup>+ y <sup>2</sup> = z <sup>3</sup></p>
+        <!-- subscript -->
+        <p>x <sub>2</sub>+ y <sub>2</sub> = z <sub>3</sub></p>
+        <!-- underline -->
+        <u>Yaar tera superstar desi kalakaar</u><br/>
+
+        <h2 id="List">ListGeneration</h2>
+        <!-- list -->
+        <ul>
+            <li>shahi paneer</li>
+            <li>kadhai paneer</li>
+            <li>chinese</li>
+            <ol>
+                <li>kadu</li>
+                <li>paneer</li>
+            </ol>
+        </ul>
+
+        <h2 id="Table">Table</h2>
+        <!-- table -->
+        
+
+        <!-- border -->
+        <style>
+            table ,td,th{
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: smaller;
+            }
+            
+        </style>
+        <!-- table -->
+        <table>
+            <!-- caption -->
+            <!-- <caption>This is my first table</caption> -->
+            <!-- heading -->
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Saving </th>
+                </tr>
+            </thead>
+            <!-- body -->
+            <tbody>
+                <tr>
+                    <td>jan</td>
+                    <td>500 </td>
+                </tr>
+                <tr>
+                    <td>feb</td>
+                    <td>900</td>
+                </tr>
+                <tr>
+                    <td>march</td>
+                    <td>1500</td>
+                </tr>
+            </tbody>
+            <!-- foot -->
+            <tfoot>
+                <tr>
+                    <td>total</td>
+                    <td>2900</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <br>
+        <!-- rowspan and colspan practice -->
+        <table>
+            <tr>
+                <td colspan="2">abcd</td>
+                <!-- <td>abcd</td> -->
+                <td rowspan="2">abcd</td>
+            </tr>
+            <tr>
+                <td rowspan="2">abcd</td>
+                <td rowspan="2">abcd</td>
+                <!-- <td>abcd</td> -->
+            </tr>
+            <tr>
+                <!-- <td>abcd</td> -->
+                <td rowspan="2" colspan="2">abcd</td>
+                <!-- <td>abcd</td> -->
+            </tr>
+            <tr>
+                <td colspan="2">abcd</td>
+                <!-- <td>abcd</td>
+                <td>abcd</td> -->
+            </tr>
+        </table>
+        <br>
+        <br>
+        <!-- practice table -->
+        <table>
+            <colgroup>
+                <col span="3" style="background-color: brown;">
+            
+            </colgroup>
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting value</td>
+                <td>After eating</td>
+            </tr>
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hours after eating</td>
+            </tr>
+            <tr>
+                <td>Healthy </td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </table>  
+        <h2 id="Forms">Forms</h2>
+        <!-- form -->
+        <h3>Welcome to Instagram</h3>
+        <form action="https:www.thecodehelp.in">
+            <label for="Username">Username: </label>
+            <input type="text" name="Username">
+            <br>
+            <br>
+            <label for="Password">Password: </label>
+            <input type="password" name="Password">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2 id="DivContainer">DivContainer</h2>
+        <p>block by default</p>
+        <!-- id:# -->
+        <div id="FirstDivContainer" >This is a First Div Container</div>
+        <!-- class:. -->
+        <div class="SecondDivContainer" >This is a Second Div Container</div>
+
+        <!-- span tag -->
+        <h2 id="Span Tag">my first span tag by divanshu</h2>
+        <p>Inline by default</p>
+        <span>This is a First span Container</span>
+        <span>This is a Second span Container</span>
+
+        <!-- iframe -->
+        <h2 id="Iframe">Iframe</h2>
+        <br>
+        <iframe src="https://wikipidia.com" frameborder="10" height="300" width="500"></iframe>
+    </body>
+</html>

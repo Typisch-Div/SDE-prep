@@ -9,5 +9,6 @@
    - Git & GitHub fundamentals
    - HTML basics
    - Binary Search introduction
+   - Time :0040 hrs
 
    ## Status: ✅ Complete
