@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- How to link css file -->
+    <link rel="stylesheet" href="learn.css">
+    <!-- internal Css -->
+    <style>
+        /* element selector */
+        p{
+            color: red;
+            font-size: xx-small;
+            font-family:cursive;
+        }
+        table, tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        /* Class Selector */
+        .green{
+            color: green;
+        }
+        .blue{
+            color: blue;
+        }
+        /* id selector */
+        #violet{
+            color:blueviolet;
+        }
+        #orange{
+            color: orange;
+        }
+        /* pseudo selector */
+        button:hover{
+            color:chartreuse;
+        }
+        a:hover{
+            color: crimson;
+        }
+        /* heirarchy */
+        p{
+            color:cyan;
+        }
+        .heir{
+            color: blueviolet;
+        }
+        #here{
+            color: chartreuse !important;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- element -->
+    <p>This is my Paragraph</p>
+    <table>
+        <tr>
+            <td>AbCd</td>
+            <td>AbCd</td>
+            <td>AbCd</td>
+        </tr>
+        <tr>
+            <td>AbCd</td>
+            <td>AbCd</td>
+            <td>AbCd</td>
+        </tr>
+    </table>
+    <!-- class -->
+    <p class="green">This is my First Paragraph</p>
+    <p class="green">This is my Second Paragraph</p>
+    <p class="blue">This is my Third Paragraph</p>
+    <!-- id -->
+    <button id="violet">Button</button>
+    <p id="orange">This is my Fourth Paragraph</p>
+    <!-- pseudoclass -->
+    <button>Yes boy</button>
+    <br>
+    <a href="https://www.codehelp.in">Touch me</a>
+    <br>
+    <!-- inline css -->
+    <p style="font-style: italic;">inline css</p>
+    <!-- heirarchy -->
+    <br>
+    <p class="heir" id="here" style="color: darkmagenta;">this is heirarchy</p>
+
+     <!-- tag(lowest) -->
+     <!-- | -->
+     <!-- class -->
+     <!-- | -->
+     <!-- id -->
+     <!-- | -->
+     <!-- inline -->
+     <!-- | -->
+     <!-- important(highest) -->
+
+     <!-- gradient -->
+     <div id="box">This is a div container</div>
+
+     <div id="rbox">This is a second container</div>
+
+     <!-- shadows -->
+      <h1 class="shadow">This is Shadow Effect</h1>
+      <h1 id="boxshadow">This is a Box Shadow</h1>
+      <br>
+      <br>
+      <br>
+     <!-- overflow -->
+      <div id="overflow">This is a div container Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto nulla, omnis consequatur velit exercitationem, modi sed deleniti ipsam provident eaque qui, itaque animi ullam? Omnis enim aliquid repudiandae mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi, non voluptatem, porro quaerat exercitationem soluta quam fugit temporibus ut laborum quisquam qui iusto praesentium eaque fuga animi suscipit asperiores?</div>
+     <!-- transform -->
+      <div id="transform">ABCD</div>
+     
+      
+</body>
+</html>
