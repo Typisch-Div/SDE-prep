@@ -1,2 +1,0 @@
-# SDE-prep
-SDE preparation 
