@@ -1,0 +1,147 @@
+.contact-form-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form-card h2 {
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-left: 4px solid #28a745;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  background-color: #f9f9ff;
+}
+
+.form-group input.input-error,
+.form-group textarea.input-error {
+  border-color: #dc3545;
+  background-color: #fff5f5;
+}
+
+.error-text {
+  color: #dc3545;
+  font-size: 0.9em;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.char-count {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: opacity 0.3s, transform 0.2s;
+  flex: 1;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-submit {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-reset {
+  background-color: #6c757d;
+  color: white;
+}
+
+.form-data-display {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border-left: 4px solid #667eea;
+}
+
+.form-data-display h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-data-display pre {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .contact-form-card {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+}
