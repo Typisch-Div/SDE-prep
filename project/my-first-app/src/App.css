@@ -4,7 +4,7 @@
 }
 
 .App {
-  background: linear-gradient(135deg, #f5f5f5 0%, #efefef 100%);
+  background: linear-gradient(135deg, #000000 0%, #5e5c5c 100%);
   min-height: 100vh;
   padding: 20px;
 }
@@ -15,8 +15,8 @@
 }
 
 .App-header h1 {
-  color: #333;
-  font-size: 2.5em;
+  color: #ffffff;
+  font-size: 3.5em;
   margin-bottom: 10px;
   margin-top: 0;
 }
