@@ -1,28 +1,23 @@
-import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import './App.css';
-import Counter from './components/Counter';
-import UserCard from './components/UserCard';
-import TodoList from './components/TodoList';
-import ContactForm from './components/ContactForm';
-import DataFetcher from './components/DataFetcher';
-import StateDemo from './components/StateDemo.jsx';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React Practice App (Vite)</h1>
-        <p>Day 7 - Linked Lists & Advanced React Hooks</p>
-      </header>
-
-      <main className="App-main">
-        <Counter />
-        <UserCard />
-        <TodoList />
-        <ContactForm />
-        <DataFetcher />
-        <StateDemo />
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
