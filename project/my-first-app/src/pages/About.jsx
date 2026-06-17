@@ -9,8 +9,10 @@ function About() {
       <div className="about-content">
         <h2>Divanshu Sharma</h2>
         <p>
-          I'm a 3rd year Computer Science student at NIT Bhopal on a 
-          intensive journey to become a full-stack developer and land amazing 
+          I'm a 3rd year Computer Science student 
+          at NIT Bhopal on a 
+          intensive journey to become a
+          full-stack developer and land amazing 
           SDE roles at top tech companies.
         </p>
 
