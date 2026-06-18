@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import ThemeToggle from './components/ThemeToggle';
 import ThemedCard from './components/ThemedCard';
+import AppStateDemo from './components/AppStateDemo';
 import './App.css';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           description="As your app grows with more components, Context API keeps your code clean and maintainable."
         />
       </div>
+      <AppStateDemo />
     </ThemeProvider>
   );
 }
