@@ -1,0 +1,136 @@
+.performance-demo {
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: 'Courier New', monospace;
+}
+
+.performance-demo h2 {
+  color: #667eea;
+  margin-bottom: 25px;
+}
+
+.demo-section {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.demo-section h3 {
+  color: #333;
+  margin-top: 0;
+  font-size: 1.1em;
+}
+
+.demo-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.info {
+  background: #e8f4f8;
+  padding: 12px;
+  border-radius: 5px;
+  color: #0066cc;
+  font-size: 0.95em;
+  margin: 10px 0;
+}
+
+.demo-section input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.demo-section input:focus {
+  outline: none;
+  border-color: #667eea;
+  background-color: #f9f9ff;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0;
+  transition: opacity 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.expensive-child {
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #ffc107;
+  margin: 10px 0;
+}
+
+.expensive-child h4 {
+  color: #856404;
+  margin: 0 0 10px 0;
+}
+
+.expensive-child p {
+  color: #856404;
+  margin: 5px 0;
+}
+
+.expensive-child button {
+  padding: 8px 16px;
+  background: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.expensive-child button:hover {
+  opacity: 0.8;
+}
+
+.tips {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.tips h3 {
+  color: #2e7d32;
+  margin-top: 0;
+}
+
+.tips ul {
+  list-style-position: inside;
+  color: #558b2f;
+}
+
+.tips li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .performance-demo {
+    padding: 15px;
+  }
+
+  .demo-section {
+    padding: 15px;
+  }
+}

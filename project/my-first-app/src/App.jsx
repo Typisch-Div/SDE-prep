@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import ThemeToggle from './components/ThemeToggle';
 import ThemedCard from './components/ThemedCard';
 import AppStateDemo from './components/AppStateDemo';
+import PerformanceDemo from './components/PerformanceDemo';
 import './App.css';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         />
       </div>
       <AppStateDemo />
+      <PerformanceDemo />
     </ThemeProvider>
   );
 }
