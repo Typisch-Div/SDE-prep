@@ -1,0 +1,14 @@
+.Product{
+    border: 1px solid black;
+    margin: 20px 10px 20px 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 14px;
+
+    height: 150px;
+    width: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

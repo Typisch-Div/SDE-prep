@@ -1,0 +1,17 @@
+.price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #e0c367;
+    height: 30px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-weight: bold;
+}
